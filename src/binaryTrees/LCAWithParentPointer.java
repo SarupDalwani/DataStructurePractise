@@ -99,11 +99,3 @@ public class LCAWithParentPointer {
     }
 }
 
-class ParentTreeNode<T> extends TreeNode<T>{
-    ParentTreeNode<T> parent;
-    ParentTreeNode<T> left,right;
-
-    public ParentTreeNode(T data) {
-        super(data);
-    }
-}
